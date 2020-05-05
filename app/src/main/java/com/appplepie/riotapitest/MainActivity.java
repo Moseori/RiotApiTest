@@ -26,7 +26,7 @@ package com.appplepie.riotapitest;
 public class MainActivity extends AppCompatActivity {
     final String league_url = "https://kr.api.riotgames.com/lol/league/v4/entries/by-summoner/";
     final String summoner_url = "https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/";
-    private final String API_KEY = "RGAPI-fd8dbf93-0d57-48ed-99de-0f959909683b";
+    private final String API_KEY = "API_KEY";
     Button request_button;
     TextView rank_win, rank_lose, summoner_name_text;
     EditText summoner_name_edit;
